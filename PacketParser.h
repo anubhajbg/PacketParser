@@ -1,5 +1,6 @@
 /* SamirJ PacketParser.h */
 #include <stdio.h>
+#include <stdlib.h>
 
 enum PacketType
 {
@@ -7,3 +8,4 @@ enum PacketType
 	TCP = 2,
 	UDP = 3
 };
+
